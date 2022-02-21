@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* header start */
 header {
     background-color: #212323;
     width: 100%;
@@ -48,14 +48,24 @@ header a {
     text-decoration: none;
     color: aquamarine;
 }
+.self-pic {
+    width: 8.5%;
+    border: 7.3px solid aquamarine;
+}
+/* header end */
 
-p {
+/* main start */
+.content {
     line-height: 4vh;
     font-size: 2em;
     position: relative;
     left: 25vw;
     border-left: solid 5px black;
     padding-left: 35px;
+}
+.large-hold,
+.small-hold {
+    border: solid 7px aquamarine;
 }
 
 h2 {
@@ -82,12 +92,6 @@ section {
     margin: 15px;
 }
 
-h3 {
-    position: relative;
-    font-size: 3rem;
-    left: 9vw;
-    top: 5vh;
-}
 
 .contact-info ul {
     justify-content: space-evenly;
@@ -105,22 +109,25 @@ h3 {
     width: 70%;
 }
 
-.self-pic {
-    width: 8.7%;
-    border: 7.3px solid aquamarine;
-}
 
-.large-hold,
-.small-hold {
-    border: solid 7px aquamarine;
-}
 
+
+/* footer start */
 footer a {
     text-decoration: underline;
     color: black;
 }
+h3 {
+    position: relative;
+    font-size: 3rem;
+    left: 9vw;
+    top: 5vh;
+}
 
-@media screen and (max-width: 600px) {
+/* footer end */
+
+/* media queries */
+@media only screen and (max-width: 600px) {
     header {
         width: 100%;
     }
@@ -163,7 +170,7 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     header {
         width: 100%;
     }
@@ -211,7 +218,7 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
     header {
         width: 100%;
     }
