@@ -10,4 +10,5 @@ show future employers projects that I have worked
 on.  This webpage will be used to leverage myself 
 into a job in the developer space.
 
-![assignment-2-screeen-shot](https://user-images.githubusercontent.com/38259586/155013614-869d8d86-106f-4282-8ec8-c14202dcf00a.png)
+
+![assignment-2-screeen-shot](https://user-images.githubusercontent.com/38259586/155013808-fa391443-ba79-4a76-9a7a-ece8c617d3df.png)
